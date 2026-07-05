@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hackathon Registration Form</title>
+    </head>
+    <body>
+        <header><img height="150" width="400" src="https://www.wrike.com/tp/storage/uploads/6ad19cf3-f42d-4cfd-839c-7b4ddcaada63/621e3c9005658fc23c531509_619cef5c40cb89bb5133f8c6_template-vignette-hackathon-1200x900-fr.png" alt="Hackathon Logo"></div>
+        <h1>Hackathon Registration Form</h1> </header>
+        <main>
+        <form>
+                <p>Full Name <input placeholder="Please Enter Name" type="text" required></p>
+                <p>Email <input placeholder="Please Enter Email" type="email" required></p>
+                <p>Phone <input placeholder="Enter Phone Number" type="tel" required></p>
+                <p>University Name <input placeholder="Please enter uni name" type="text" required></p>
+                <p>Experience Level <select>
+                                    <option>Choose</option>
+                                    <option>Yes</option>
+                                    <option>No</option>
+                                </select> </p>
+                <p><strong>Select T-Shirt Size:</strong><br>
+                <input type="radio" name="size" id="Small" value="Small">
+                    <label for="Small">Small</label><br>
+                <input type="radio" name="size" id="Medium" value="Medium">
+                    <label for="Medium">Medium</label><br>
+                <input type="radio" name="size" id="Large" value="Large">
+                    <label for="Large">Large</label><br>
+                <input type="radio" name="size" id="XLarge" value="XLarge">
+                    <label for="XLarge">Extra Large</label> </p>
+                
+                <p><strong>Team Status:</strong>
+                <input type="radio" name="team" id="yes" value="yes">
+                    <label for="yes">Got a Team</label>
+                <input type="radio" name="team" id="no" value="no">
+                    <label for="no">Need a Team</label>
+                </p>
+
+                <p><strong>Dietary Preferences</strong> <br>
+                <input type="checkbox" name="diet" id="vegan" value="vegan">
+                    <label for="vegan">Vegan</label><br>
+                <input type="checkbox" name="diet" id="halal" value="halal">
+                    <label for="halal">Halal</label><br>
+                <input type="checkbox" name="diet" id="glutenfree" value="glutenfree">
+                    <label for="glutenfree">Gluten-Free</label><br>
+                <input type="checkbox" name="diet" id="dairyfree" value="dairyfree">
+                    <label for="dairyfree">Dairy-Free</label><br>
+                <input type="checkbox" name="diet" id="Nut Allergy" value="Nut Allergy">
+                    <label for="Nut Allergy">Nut Allergy</label><br>
+                <input type="checkbox" name="diet" id="No Preference" value="No Preference">
+                    <label for="No Preference">No Preference</label>
+                </p>
+
+                <p><strong>Programming Languages</strong> <br>
+                <input type="checkbox" name="PL" id="C++" value="C++">
+                    <label for="C++">C++</label><br>
+                <input type="checkbox" name="PL" id="Python" value="Python">
+                    <label for="Python">Python</label><br>
+                <input type="checkbox" name="PL" id="Rust" value="Rust">
+                    <label for="Rust">Rust</label><br>
+                <input type="checkbox" name="PL" id="Java" value="Java">
+                    <label for="Java">Java</label><br>
+                <input type="checkbox" name="PL" id="C#" value="C#">
+                    <label for="C#">C#</label><br>
+                <input type="checkbox" name="PL" id="Javascript" value="Javascript">
+                    <label for="Javascript">Javascript</label>
+                </p>
+
+
+                <p><strong>Terms and Conditions</strong>
+                    <input type="checkbox" name="terms" id="terms" value="terms" required>
+                        <label for="terms">Agree?</label>
+                </p>
+                <input type="submit" value="Submit">
+        </form>
+        </main>
+    </body>
+</html>
