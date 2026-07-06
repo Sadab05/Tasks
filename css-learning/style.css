@@ -1,0 +1,9 @@
+#external{
+    color: coral;
+    text-align: center;
+    background-color: blue;
+    display: block;
+    padding: 10px;
+    border: 10px solid red;
+    border-radius: 100px;
+}
